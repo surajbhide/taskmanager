@@ -6,9 +6,12 @@
     <meta name="description" content="Simple Task manager using Flask">
     <meta name="keywords" content="Task Manager">
     <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     {% block head %} {% endblock %}
 </head>
 <body>
+<div class="container">
 {% block body %} {% endblock %}
+</div>
 </body>
 </html>
